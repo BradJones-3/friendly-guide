@@ -36,19 +36,52 @@ The main languages that will be used during this project will be HTML5, CSS3 and
 
 ## Ideal User Demographic
 
-* The main requirements for this project was to create a fun, easily playable and interactive game that would be enjoyed by anyone playing. The content in this game will be suitable for all ages. The target audience is considerable of all ages, though the game may appeal to people intrested in science fiction content and more specifically fans of the frnachise Star Wars.
+* The main requirements for this project was to create a fun, easily playable and interactive game that would be enjoyed by anyone playing. The content in this game will be suitable for all ages. The target audience is considerable of all ages, though the game may appeal more to people intrested in science fiction content and more specifically fans of the frnachise Star Wars.
 
 ## User Stories
 
-* Developer Goals
+**Developer Goals**
   * The game should be easily understood and straightforward to use.
   * Easy accesiable rules of the games and how to play instructions.
   * Game appeals to players of all ages.
-  * Make the game playable on all devices with little apperance changes to kep the look consitant for player on all devices.
+  * Make the game playable on all devices with little apperance changes to keep the look consistant for players on all devices.
 
-* Player Goals
+**Player Goals**
   * I want to be able to, access straightforward instructions on how to play the game.
   * I want to be able to, return to the homepage with a single click.
   * I want to be able to, challenge myself with various stages of the game.
   * I want to be able to, compare myself to other players using the highscores.
   * I want to be able to, play the game with or without audio.
+
+## Development Planes
+
+In order to create a fun and enjoyable game the developer worked alongside some friends who were a variety of sci-fi fans and also some that had no intrests in that genre to ensure the goals listed above was applied to all of the players.
+
+**Roles**
+* People wanting to relax and play a simple game to challenge their memory
+* Fans of Star Wars wanting to test their knowledge of the franchise
+* Fans of Science Fiction looking to be introduced to Star Wars most commonly known Characters
+
+**Demographic**
+* 7 years old and higher
+* Sci-fi and Star Wars fans testing their knowledge
+
+**Personalities**
+* Fun-Seeking
+* Competitive
+
+**Values**
+* Enjoy Challenging themselves mentally
+* Curious of trying a new genre of game
+
+**Lifestyles**
+* Fans of Sci-fi(Star Wars)
+
+The website needs to let the user:
+* Get the rules and information on how to play the game
+* Be able to select different difficulties on the webiste
+* Be able to compare themselves against other players
+* Find social media platforms from the footer
+
+The webiste needs to let the developer:
+* Provide easy and accessiable 
