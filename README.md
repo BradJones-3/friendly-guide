@@ -86,3 +86,29 @@ The website needs to let the user:
 The webiste needs to let the developer:
 * Provide easy and accessiable rules for the game
 * Provide easy to read and simple instructions for the players
+
+## Skeleton
+
+The developer used [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq Homepage") to create the wireframes for the website.
+
+### Home Page
+
+![Homepage Wireframe](assets/readme-images/Homepage-MS2.png)
+
+### Home Page Modal
+
+![Homepage Modal Wireframe](assets/readme-images/Homepage-Modal.png)
+
+### Gamepage
+
+![Gamepage Wireframe](assets/readme-images/Gamepage-MS2.png)
+
+### Gamepage Modal
+
+![Gamepage Modal Wireframe](assets/readme-images/Gamepage-Modal.png)
+
+## Design
+
+### Colour Scheme
+
+The main colours used throughout the website are a black background with yellow text to keep the Star Wars theme consistant throughout each page. 
