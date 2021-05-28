@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Roboto:wght@300;500;600;700&display=swap');
+
+body {
+    background-color: #888c8d;
+    font-family: "Lato", sans-serif;
+    color: yellow;
+    text-align: center;
+}
+
+/* Heading */
+#game-title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    padding-left: 9px;
+    border-radius: 25%;
+}
