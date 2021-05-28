@@ -84,4 +84,5 @@ The website needs to let the user:
 * Find social media platforms from the footer
 
 The webiste needs to let the developer:
-* Provide easy and accessiable 
+* Provide easy and accessiable rules for the game
+* Provide easy to read and simple instructions for the players
