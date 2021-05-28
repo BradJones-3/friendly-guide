@@ -31,6 +31,9 @@ body {
     margin-left: auto;
 }
 
-.warning {
+.hero-image button {
     background-color: #ff9822;
+}
+.hero-image button:hover {
+    background-color: #ff9700;
 }
