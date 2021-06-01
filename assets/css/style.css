@@ -1,39 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Gothic+A1:wght@300;500;600;700&display=swap');
 
 body {
-    background-color: black;
-    background-image: url("../images/Death-Star.jpg");
+    margin: 0;
     font-family: 'Gothic A1', sans-serif;
-    font-weight: 400;
-    color: yellow;
-    text-align: center;
-    height: 100%;
-}
-
-/* Heading */
-#logo-bar, img {
-    border-radius: 52%;
-    width: 33%;
-}
-
-/* Hero Image */
-
-.hero-image {
-    height: 50%;
-    background: center no-repeat cover;
-    position: relative;
-}
-
-.container-fluid {
+    color: #fbff00;
+    background: url(../images/Death-Star.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, .6);
     width: 100%;
-    padding: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
-.hero-image button {
-    background-color: #ff9822;
+/* Webiste's Logo And Title */
+
+.logo-bar,img {
+    border-radius: 50%;
+    height: 150px;
+    width: 400px;
+    object-fit: fill;
 }
-.hero-image button:hover {
-    background-color: #ff9700;
+
+
+
+
+/* Footer/Social Links */
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 40px;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.socials {
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.socials i {
+    color: #FFE81F;
+    text-align: center;
+    font-size: 250%;
+}
+
+.socials i:hover {
+    color: #ff00ff;
+}
+
+/* Icons */
+ 
+.list-inline-item {
+    font-size: larger;
+    margin-left: 15px;
+    text-align: center;
 }
