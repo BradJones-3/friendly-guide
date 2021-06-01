@@ -11,36 +11,45 @@
     <title>Jedi Mind Tricks</title>
 </head>
 <body> 
-    <header>
-        <div class="container-fluid logo-bar">
-            <div class="row no-gutters justify-content-center">
-                <div class="col-12 text-center">
-                    <a href="index.html">
-                        <img src="assets/images/Yoda-Force.jpg" alt="Yoda Using The Force" class="logo">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <div class="container-fluid">
+<header>
+    <div class="container-fluid logo-bar">
         <div class="row no-gutters justify-content-center">
             <div class="col-12 text-center">
-                <button type="button" class="begin-button">This Is Where The Fun Begins!</button>
+                <a href="index.html">
+                    <img src="assets/images/Yoda-Force.jpg" alt="Yoda Using The Force" class="logo">
+                </a>
             </div>
         </div>
     </div>
-    <div id="footer" class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <ul class="list-inline socials">
-                    <li class="list-inline-item"><a href="https://github.com/BradJones-3" target="_blank" aria-label="Developer's Github"><i class="fa fa-github-square"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.youtube.com/user/starwars" target="_blank" aria-label="OSRS YouTube"><i class="fa fa-youtube-square"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.reddit.com/r/StarWars/" target="_blank" aria-label="Star Wars Reddit"><i class="fa fa-reddit-square"></i></a></li>
-                    <li class="list-inline-item"><a href="https://www.linkedin.com/in/brad-jones-777a99203/" target="_blank" aria-label="Developer's LinkedIn Profile"><i class="fa fa-linkedin-square"></i></a></li>
-                </ul>
-            </div>
+</header>
+<div class="container-fluid">
+    <div class="row no-gutters justify-content-center">
+        <div class="col-12 text-center">
+            <button id="show-modal">This Is Where The Fun Begins!</button>
         </div>
     </div>
-    <script src="assets/js/script.js"></script>
+</div>
+
+
+<div id="footer" class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <ul class="list-inline socials">
+                <li class="list-inline-item"><a href="https://github.com/BradJones-3" target="_blank" aria-label="Developer's Github"><i class="fa fa-github-square"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.youtube.com/user/starwars" target="_blank" aria-label="OSRS YouTube"><i class="fa fa-youtube-square"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.reddit.com/r/StarWars/" target="_blank" aria-label="Star Wars Reddit"><i class="fa fa-reddit-square"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/brad-jones-777a99203/" target="_blank" aria-label="Developer's LinkedIn Profile"><i class="fa fa-linkedin-square"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="modal modal--hidden">
+    <div class="modal__content">
+        <i class="fa fa-times modal-close"></i>
+        <p class="wel-msg">Welcome to Jedi Mind Tricks the game that puts your Star Wars knowledge to the Test!</p>
+        <button type="button" class="how-to-btn">How To Play?</button>
+    </div>
+</div>
+<script src="assets/js/script.js"></script>
 </body>
 </html>
