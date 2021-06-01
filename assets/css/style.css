@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&family=Gothic+A1:wght@300;500;600;700&display=swap');
 
+:root {
+    /*  color variables  */
+    --colour1: #FFE81F;
+    --colour2: #FF00FF;
+    --font1: 'Gothic A1', sans-serif;
+    --font2: 'Lato', sans-serif: 
+}
+
 body {
     margin: 0;
-    font-family: 'Gothic A1', sans-serif;
-    color: #fbff00;
+    font-family: var(--font1);
+    color: var(--colour1);
     background: url(../images/Death-Star.jpg) no-repeat center center fixed;
     background-size: cover;
     background-color: rgba(0, 0, 0, .6);
@@ -22,6 +30,58 @@ body {
 
 
 
+/* Modal */
+
+.modal {
+    background-color: rgba(48, 48, 48, 0.7);
+    position: absolute;
+    top: -1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &--hidden {
+        display: none;
+    }
+    &__content {
+    padding: 2rem 4rem;
+    }
+}
+
+.modal--hidden {
+    display: none;
+}
+
+.fa-times {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -2rem;
+    margin-top: -2rem;
+    cursor: pointer;
+}
+
+
+.how-to-btn {
+    color: rgb(0, 0, 0);
+    background-color: var(--colour1);
+    font-family: var(--font1);
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    border: 3px #CA4E0B solid;
+    cursor: pointer;    
+}
+
+.how-to-btn:hover {
+    background-color: #CA4E0B;
+    color: rgb(0, 0, 0);
+    border: 3px white solid;
+}
+
+.wel-msg {
+    color: var(--colour1);
+}
 /* Footer/Social Links */
 
 #footer {
@@ -42,13 +102,13 @@ body {
 }
 
 .socials i {
-    color: #FFE81F;
+    color: var(--colour1);
     text-align: center;
     font-size: 250%;
 }
 
 .socials i:hover {
-    color: #ff00ff;
+    color: var(--colour2);
 }
 
 /* Icons */
