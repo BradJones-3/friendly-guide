@@ -27,9 +27,6 @@ body {
     object-fit: fill;
 }
 
-
-
-
 /* Modal */
 
 .modal {
@@ -61,27 +58,62 @@ body {
     cursor: pointer;
 }
 
+#show-modal {
+    color: black;
+    background: var(--colour1);
+    border: 3px solid #CA4E0B;
+    cursor: pointer;
+}
 
-.how-to-btn {
+#show-modal:hover {
+    background: #CA4E0B;
+    color: black;
+    border: 3px solid var(--colour1);
+    cursor: pointer;
+}
+
+/* Inside Hompage Modal */
+
+#btn-1 {
     color: rgb(0, 0, 0);
     background-color: var(--colour1);
     font-family: var(--font1);
-    justify-content: center;
-    text-align: center;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
     width: 25%;
     border: 3px #CA4E0B solid;
     cursor: pointer;    
 }
 
-.how-to-btn:hover {
+#btn-1:hover {
     background-color: #CA4E0B;
     color: rgb(0, 0, 0);
     border: 3px white solid;
 }
 
+.how-to-content {
+    display: none;
+}
+
+.how-to-content h1 {
+    font-size: medium;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 2.5px;
+    padding-top: 5px;
+}
+
+.how-to-content p {
+    font-size: small;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .wel-msg {
     color: var(--colour1);
 }
+
 /* Footer/Social Links */
 
 #footer {
