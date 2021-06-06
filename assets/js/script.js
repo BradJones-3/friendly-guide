@@ -8,3 +8,9 @@ document.querySelector('#show-modal')
 
 document.querySelector('.modal-close')
 .addEventListener('click', toggleModal);
+
+$(document).ready(function() {
+    $('#btn-1').click(function(){
+        $('.how-to-content').toggle();
+    });
+});
