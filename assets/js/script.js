@@ -6,7 +6,6 @@ const toggleModal = () => {
 document.querySelector('#show-modal')
 .addEventListener('click', toggleModal);
 
-
 $('#btn-1').click(function(){
     $('.how-to-content').slideToggle(550);
 })
