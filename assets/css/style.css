@@ -85,7 +85,7 @@ body {
     border-radius: 20px;
 }
 
-.wel-msg {
+.modal-header {
     color: var(--colour1);
     width: 100%;
     text-transform: capitalize;
