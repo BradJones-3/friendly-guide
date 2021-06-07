@@ -25,7 +25,7 @@
 <div class="container-fluid">
     <div class="row no-gutters justify-content-center">
         <div class="col-12 text-center">
-            <button id="show-modal">This Is Where The Fun Begins!</button>
+            <button id="show-modal" class="center hero-image">This Is Where The Fun Begins!</button>
         </div>
     </div>
 </div>
@@ -45,13 +45,21 @@
 </div>
 <div class="modal modal--hidden">
     <div class="modal__content">
-        <i class="fa fa-times modal-close"></i>
-            <p class="wel-msg ">Welcome to Jedi Mind Tricks the game that puts your Star Wars knowledge to the Test!</p>
-                <button type="button" id="btn-1" data-dismiss="modal">How To Play?</button>
-                    <div class="how-to-content">
-                        <h1>How to Play:</h1>
-                        <p>When you click play</p>
+        
+            <div class="row">
+                <div class="col-12">
+                    <p class="wel-msg text-center">Welcome to Jedi Mind Tricks memory game that puts your Star Wars knowledge to the Test!</p>
+                </div>
+            </div>
+                <button type="button" id="btn-1">How To Play?</button>
+                    <div class="how-to-content container-fluid">
+                        <h2 class="content-header text-center">Playing The Game</h2>
+                        <p>The objective of this game is to find all the matching card pairs in the least amount of moves, whilst working against a timer. If the cards don't make a pair then they will flip back over but 
+                            if a player finds a matching pair then those selected cards will stay flipped over.
+                        </p>
                     </div>
+                        
+                    
     </div>
 </div>
 <script src="assets/js/script.js"></script>
