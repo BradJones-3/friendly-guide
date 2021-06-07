@@ -3,7 +3,7 @@
 :root {
     /*  color variables  */
     --colour1: #FFE81F;
-    --colour2: #FF00FF;
+    --colour2: #CA4E0B;
     --font1: 'Gothic A1', sans-serif;
     --font2: 'Lato', sans-serif: 
 }
@@ -58,14 +58,15 @@ body {
 }
 
 #show-modal:hover {
-    background: #CA4E0B;
+    background: var(--colour2);
     color: black;
     border-radius: 20px;
 }
 
 /* Inside Hompage Modal */
 
-#btn-1 {
+.modal-buttons {
+    line-height: 50px;
     color: rgb(0, 0, 0);
     background-color: var(--colour1);
     font-family: var(--font1);
@@ -74,13 +75,20 @@ body {
     margin: 0 auto;
     width: 25%;
     cursor: pointer;
-    border-radius: 20px;  
+    border-radius: 20px; 
+    margin-bottom: 15px; 
 }
 
-#btn-1:hover {
-    background-color: #CA4E0B;
+.modal-buttons:hover {
+    background-color: var(--colour2);
     color: rgb(0, 0, 0);
     border-radius: 20px;
+}
+
+.wel-msg {
+    color: var(--colour1);
+    width: 100%;
+    text-transform: capitalize;
 }
 
 .how-to-content {
@@ -98,10 +106,8 @@ body {
     text-decoration: underline;
 }
 
-.wel-msg {
-    color: var(--colour1);
-    width: 100%;
-    font-size: larger;
+.game-levels {
+    list-style-type: none;
 }
 
 /* Footer/Social Links & Icons */ 
