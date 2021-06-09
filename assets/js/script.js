@@ -1,4 +1,4 @@
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("rules-modal");
 
 var btn = document.getElementById("modal-btn");
 

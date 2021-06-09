@@ -4,13 +4,13 @@
     /*  color variables  */
     --colour1: #FFE81F;
     --colour2: #CA4E0B;
-    --font1: 'Gothic A1', sans-serif;
-    --font2: 'Lato', sans-serif: 
+    --bodyfont1: 'Gothic+A1', sans-serif;
+    --bodyfont2: 'Lato', sans-serif: 
 }
 
 body {
     margin: 0;
-    font-family: var(--font1);
+    font-family: var(--bodyfont1);
     color: var(--colour1);
     background: url(../images/Death-Star.jpg) no-repeat center center fixed;
     background-size: cover;
@@ -29,7 +29,7 @@ body {
 
 /* Modal */
 
-.center { /*-- Thanks to W3Schools (credited in README --*/
+.center { /* Thanks to W3Schools (https://www.w3schools.com/howto/howto_css_center_button.asp */
     margin: 0;
     position: absolute;
     top: 50%;
@@ -65,14 +65,15 @@ body {
 .game-content {
     display: none;
     text-align: center;
-    font-family: var(--font1);
+    font-family: var(--bodyfont1);
     background-color: rgba(0, 0, 0, .9);
+    margin-bottom: 20px;
 }
 
 .modal-header {
     text-align: center;
-    font-family: var(--font1);
-    font-size: large;
+    font-family: var(--bodyfont1);
+    font-weight: 800;
     width: 100%;
     display: block;
 }
@@ -81,13 +82,15 @@ body {
 
 .modal-buttons {
     line-height: 50px;
+    text-transform: capitalize;
     color: rgb(0, 0, 0);
     background-color: var(--colour1);
-    font-family: var(--font1);
+    font-family: var(--bodyfont1);
+    font-weight: 600;
     display: block;
     align-items: center;
     margin: 0 auto;
-    width: 25%;
+    width: 268px;
     cursor: pointer;
     border-radius: 20px; 
     margin-bottom: 15px; 
