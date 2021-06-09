@@ -29,38 +29,52 @@ body {
 
 /* Modal */
 
-.modal {
-    background-color: rgba(48, 48, 48, 0.7);
+.center { /*-- Thanks to W3Schools (credited in README --*/
+    margin: 0;
     position: absolute;
-    top: -1;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+
+.modal-buttons {
+    text-align: center;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, .6);
+    margin: 0 auto;
+    padding: 15px;
+    width: 50%;
     height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    &--hidden {
-        display: none;
-    }
-    &__content {
-    padding: 2rem 4rem;
-    }
 }
 
-.modal--hidden {
+.close {
+    color: var(--colour1);
+    float: right;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+.close:hover {
+    color: var(--colour2);
+}
+
+.game-content {
     display: none;
+    text-align: center;
+    font-family: var(--font1);
+    background-color: rgba(0, 0, 0, .9);
 }
 
-#show-modal {
-    color: black;
-    background: var(--colour1);
-    cursor: pointer;
-    border-radius: 20px;
-}
-
-#show-modal:hover {
-    background: var(--colour2);
-    color: black;
-    border-radius: 20px;
+.modal-header {
+    text-align: center;
+    font-family: var(--font1);
+    font-size: large;
+    width: 100%;
+    display: block;
 }
 
 /* Inside Hompage Modal */
@@ -83,27 +97,6 @@ body {
     background-color: var(--colour2);
     color: rgb(0, 0, 0);
     border-radius: 20px;
-}
-
-.modal-header {
-    color: var(--colour1);
-    width: 100%;
-    text-transform: capitalize;
-}
-
-.how-to-content {
-    display: none;
-    font-family: var(--font1);
-    font-size: medium;
-    width: 25%;
-    text-align: center;
-}
-
-.content-header {
-    font-family: var(--font1);
-    font-size: larger;
-    margin-top: 15px;
-    text-decoration: underline;
 }
 
 .game-levels {

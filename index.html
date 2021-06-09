@@ -22,14 +22,30 @@
         </div>
     </div>
 </header>
-<div class="container-fluid">
-    <div class="row no-gutters justify-content-center">
-        <div class="col-12 text-center">
-            <button id="show-modal" class="center hero-image">This Is Where The Fun Begins!</button>
-        </div>
-    </div>
-</div>
 
+        <button id="modal-btn" class="modal-buttons center">This is where the fun begins!</button>
+  
+        <div id="myModal" class="modal">
+
+        <div class="modal-content">
+            <span class="close">&times;</span>
+                <p class="modal-header">Welcome To Jedi Mind Tricks Memory Game That Puts Your Star Wars Knowledge To The Test!</p>
+            <button id="btn-1" class="modal-buttons">Rules</button>
+            <div class="game-content">
+            <h2 class="content-header">Playing The Game</h2>
+            <p>The objective of this game is to find all the matching card pairs in the least amount of moves, whilst working against a timer. If the cards don't make a pair then they will flip back over but 
+                if a player finds a matching pair then those selected cards will stay flipped over. You can also test your memory with three levels of difficulties.
+            </p>
+                <ul class="game-levels">
+                    <li>Padawan - 12 cards</li>
+                    <li>Jedi Knight - 16 cards</li>
+                    <li>Jedi Master - 20 cards</li>
+                </ul>
+        </div>
+    
+  </div>
+
+</div>
 
 <div id="footer" class="container-fluid">
     <div class="row">
@@ -43,28 +59,7 @@
         </div>
     </div>
 </div>
-<div class="modal modal--hidden">
-    <div class="modal__content">
-        <div class="row">
-            <div class="col-12">
-                <p class="modal-header center">Welcome to Jedi Mind Tricks memory game that puts your Star Wars knowledge to the Test!</p>
-            </div>
-        </div>
-            <button type="button" id="btn-1" class="modal-buttons">How To Play?</button>
-                <div class="how-to-content container-fluid">
-                    <h2 class="content-header text-center">Playing The Game</h2>
-                        <p>The objective of this game is to find all the matching card pairs in the least amount of moves, whilst working against a timer. If the cards don't make a pair then they will flip back over but 
-                            if a player finds a matching pair then those selected cards will stay flipped over.
-                        </p>
-                    <ul class="game-levels">
-                        <li>Padawan - 12 cards</li>
-                        <li>Jedi Knight - 16 cards</li>
-                        <li>Jedi Master - 20 cards</li>
-                    </ul>
-                </div>
-                <button type="button" id="btn-2" class="modal-buttons">Play Now!</button>
-    </div>
-</div>
+
 <script src="assets/js/script.js"></script>
 </body>
 </html>

@@ -1,11 +1,24 @@
-const toggleModal = () => {
-    document.querySelector('.modal')
-    .classList.toggle('modal--hidden');
-};
+var modal = document.getElementById("myModal");
 
-document.querySelector('#show-modal')
-.addEventListener('click', toggleModal);
+var btn = document.getElementById("modal-btn");
+
+var span = document.getElementsByClassName("close")[0];
+/* Opens Modal */
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+/* Modal closes when clicked on the 'X'*/
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+/* Modal closes when clicked outside of*/
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
 $('#btn-1').click(function(){
-    $('.how-to-content').slideToggle(550);
+  $('.game-content').slideToggle(550);
 })
