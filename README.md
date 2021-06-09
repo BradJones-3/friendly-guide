@@ -111,4 +111,12 @@ The developer used [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq Homepag
 
 ### Colour Scheme
 
-The main colours used throughout the website are a black background with yellow text to keep the Star Wars theme consistant throughout each page. 
+The main colours used throughout the website are a black background with yellow text to keep the Star Wars theme consistant throughout each page. Also when hovering over buttons the colour will change to a orange to clearly show the user where their cursor is pointing.
+
+### Typography
+
+The pairing of fonts [Lato](https://fonts.google.com/specimen/Lato?preview.text_type=custom) and also [Gothic+A1](https://fonts.google.com/specimen/Gothic+A1) with Sans Serif being used as back-up should the fonts not be able to load due to an import fail.
+
+Gothic A1 is being used throughout the site to keep the text consistent.
+
+### Imagery
