@@ -72,6 +72,7 @@ body {
 
 .modal-header {
     text-align: center;
+    text-transform: capitalize;
     font-family: var(--bodyfont1);
     font-weight: 800;
     width: 100%;
@@ -104,6 +105,12 @@ body {
 
 .game-levels {
     list-style-type: none;
+}
+
+/* Levels Modal*/
+
+#levelsModal {
+    display: none;
 }
 
 /* Footer/Social Links & Icons */ 
