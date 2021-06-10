@@ -23,8 +23,114 @@
     </div>
 </header>
 
+<section>
+    <div class="visible" id="overlay-text">
+        <h2>Are you ready padawan?</h2>
+        <p>Click to begin!</p>
+    </div>
+    <div class="container-fluid game-data-div">
+        <div class="row text-center no-gutters justify-content-center">
+            <div class="col game-data">
+                <h2 class="game-time">Time: <span id="time-remaining">60</span></h2>
+            </div>
+            <div class="col game-data">
+                <h2 class="game-moves">Moves: <span id="card-moves">0</span></h2>
+            </div>
+        </div>
 
+        <div class="col-12 game container justify-content-center">
+            <div class="game-cards" data-logo="obi-wan">
+                <img class="front-card" src="assets/images/card-images/obi-wan.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="obi-wan">
+                <img class="front-card" src="assets/images/card-images/obi-wan.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="ahsoka">
+                <img class="front-card" src="assets/images/card-images/Ahsoka.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="ahsoka">
+                <img class="front-card" src="assets/images/card-images/Ahsoka.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="c3p0">
+                <img class="front-card" src="assets/images/card-images/C3P0.png">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="c3p0">
+                <img class="front-card" src="assets/images/card-images/C3P0.png">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="chewbacca">
+                <img class="front-card" src="assets/images/card-images/Chewbacca.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="chewbacca">
+                <img class="front-card" src="assets/images/card-images/Chewbacca.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="maul">
+                <img class="front-card" src="assets/images/card-images/Darth-Maul.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="maul">
+                <img class="front-card" src="assets/images/card-images/Darth-Maul.jpg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="vader">
+                <img class="front-card" src="assets/images/card-images/Darth-Vader.jpeg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+            <div class="game-cards" data-logo="vader">
+                <img class="front-card" src="assets/images/card-images/Darth-Vader.jpeg">
+                <img class="back-card" src="assets/images/card-images/rebel-alliance.jpg">
+            </div>
+        </div>
+    </div>
+</section>
 
+<div class="modal fade" id="win-modal" tabindex="-1" role="dialog" aria-labelledby="win-modal" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content text-center">
+            <div class="modal-header text-center">
+                <h4 class="modal-title">Welcome to the rebellion!</h4>
+            </div>
+            <div class="modal-body text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/images/Rebel-Alliance-meeting.jpeg" class="win-image" alt="rebel alliance meeting">
+                    </div>
+                    <div class="col-12">
+                        <p>Congratulations Young Padawan! Lets see where you rank amongst your peers, enter your name below and find out!</p>
+                    </div>
+                    <div class="col-12">
+                        <p>Time Remaining: <span id="timeTaken"></span></p>
+                    </div>
+                    <div class="col-12">
+                        <p>Total Moves: <span id="totalMoves"></span></p>
+                    </div>
+                    <div class="col-12">
+                        <p>Score: <span id="score"></span></p>
+                    </div>
+                    <div class="col-12">
+                        <input type="text" name="username" id="username" placeholder="Your Name" maxlength="12">
+                    </div>
+                    <div class="col-12">
+                        <!-- Space for button to allow users to submit their scores -->
+                    </div>
+                    <div class="col-12">
+                        <a href="game-padawan.html" class="btn modal-buttons">Play Again!</a>
+                    </div>
+                    <div class="col-12">
+                        <a href="index.html" class="btn modal-buttons">Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div id="footer" class="container-fluid">
     <div class="row">
