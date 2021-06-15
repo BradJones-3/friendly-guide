@@ -21,7 +21,7 @@ body {
 /* Webiste's Logo And Title */
 
 .logo-bar,img {
-    border-radius: 50%;
+    border-radius: 25%;
     height: 150px;
     width: 400px;
     object-fit: fill;
@@ -31,6 +31,7 @@ body {
 
 .modal-title {
     font-family: var(--bodyfont1);
+    text-transform: capitalize;
 }
 
 .center { /* Thanks to W3Schools (https://www.w3schools.com/howto/howto_css_center_button.asp */
@@ -100,12 +101,103 @@ body {
 
 .game-levels {
     list-style-type: none;
+    font-family: var(--bodyfont1);
 }
+
+/* Game Cards / Game Page */
+
+#game-text {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    color: var(--colour1);
+    font-family: var(--bodyfont2);
+    font-size: 9rem;
+    text-transform: capitalize;
+    background-color: rgba(0, 0, 0, .9);
+}
+
+.game-text-sml {
+    font-size: .2em;
+    text-transform: capitalize;
+}
+
+#game-text.visible {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.game-data-div {
+    max-width: 850px;
+}
+
+.game-data {
+    background-color: rgba(0, 0, 0, .9);
+    color: var(--colour1);
+    border: var(--colour2) solid 3px;
+    margin: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    max-width: 170px;
+}
+
+.game-container {
+    width: 100%;
+    height: 640px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+}
+
+.game-cards {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform 1s;
+}
+
+.game-cards:active {
+    transform-style: scale(.97);
+    transition: transform .5s;
+}
+
+.game-cards.flip {
+    transform: rotateY(180deg);
+}
+
+.front-card,
+.back-card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    background: var(--colour2);
+    backface-visibility: hidden;
+}
+ 
+.front-card {
+    transform: rotateY(180deg);
+}
+
 /* Footer/Social Links & Icons */ 
 
 #footer {
     background-color: rgba(0, 0, 0, 0.5);
-    min-height: 40px;
+    min-height: 10px;
     margin: 0;
     bottom: 0;
     position: fixed;
@@ -114,9 +206,9 @@ body {
 
 .socials {
     text-align: center;
-    min-height: 100%;
+    min-height: 75%;
     min-width: 100%;
-    padding: 20px;
+    padding: 6px;
     margin-right: 20px;
 }
 
