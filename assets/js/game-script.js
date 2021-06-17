@@ -18,36 +18,64 @@ if(window.location.pathname.indexOf("padawan") != -1) {
     difficulty = "MASTER";
 }
 
+/* Game Times for each level of the game*/
 let startTime;
 if(difficulty === "PADAWAN") {
     startTime = 60;
 } else if(difficulty === "KNIGHT") {
-    startTime = 70;
+    startTime = 80;
 } else if(difficulty === "MASTER") {
-    startTime = 90;
+    startTime = 100;
 }
 
-/* Ready to Start New Game */
-function startGame() { /* Removes Overlay Text */
+/* Ready to Start New Game By Removing Overlay Text */
+function startGame() { 
     overlay.classList.remove('visible');
     };
 
-let overlay = document.getElementById("game-text");
-let timer = document.querySelector(".time-remaining");
-let moves = document.getElementById("card-moves");
 
+let timeRemaining = startTime;
+let overlay = document.getElementById("game-text");
+let timer = document.getElementById("time-remaining");
+let moves = document.getElementById("card-moves");
+let movesCounter = 0;
+let countDown;
+let finishTime;
+let finishMoves;
+let score;
+
+
+/* Creates a countdown timer witht the amount of time taken from the id 'time-remaining' */
+function beginCountDown() {
+    countDown = setInterval(function() {
+        timeRemaining--;
+        timer.innerHTML = timeRemaining;
+        if(timeRemaining == 0)
+        gameOver();
+    },1000);
+}
+
+function cardFlips() {
+    movesCounter++;
+    moves.innerHTML = movesCounter;
+    if(movesCounter == 1) {
+        beginCountDown();
+    }
+}
 
 function flipCard() {
     if(disableCards) return;
 
     this.classList.add('flip');
+
+    
     /* first card to be clicked on */
     if (!hasFlippedCard) {
         hasFlippedCard = true;
         firstCard = this;
 
         return;
-    }
+    } cardFlips();
         /* second card to be clicked on */
         hasFlippedCard = false;
         secondCard = this;
@@ -71,7 +99,7 @@ function cardsMatch(){
     cardsMatchArray.push(secondCard);
     /* When the amount of cards in the cardsMatched array equal to the same amount in the cards array game will stop and open the win funtion */
     if(cardsMatchArray.length === cardsArray.length) {
-        win();
+        winner();
     }
 
     resetCards();
@@ -85,7 +113,7 @@ function cardsDontMatch(){
         secondCard.classList.remove('flip');
 
         disableCards = false;
-        }, 1500);
+        }, 1000);
 }
 
 function resetCards() {
@@ -113,9 +141,20 @@ function resetCards() {
     }
 })();
 
+function winner() {
+    clearInterval(countDown);
+    finishTime = timer.innerHTML;
+    finishMoves = movesCounter;
+    $("#win-modal").modal("toggle");
+    document.getElementById("timeTaken").innerHTML = finishTime;
+    document.getElementById("totalMoves").innerHTML = finishMoves;
 
+}
 
+function gameOver() {
+    clearInterval(countDown);
+    $("#game-over-modal").modal("toggle");
+}
 
-
-cards.forEach(card => card.addEventListener('click', flipCard));
-overlay.addEventListener("click", startGame); /* when clicked overlay text disappears*/
+cards.forEach(card => card.addEventListener('click', flipCard)); /* Listens for a click on a card and flips the card to show the player the face of said card */
+overlay.addEventListener("click", startGame); /* When clicked overlay text disappears*/
