@@ -233,3 +233,34 @@ body {
     margin-left: 15px;
     text-align: center;
 }
+
+/* Responsive Design */
+
+@media only screen and (max-height: 900px) {
+    .game-container {
+        height: 650px;
+        width: 476px;
+    }
+    .game-data-div {
+        height: 650px;
+        width: 420px;
+    }
+}
+
+@media only screen and (max-height: 750px) {
+    .game-container {
+        height: 520px;
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .logo {
+        height: 90px;
+        width: 100%;
+    }
+    .logo-bar {
+        height: 102px;
+        width: 100%;
+    }
+}
