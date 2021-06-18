@@ -255,6 +255,10 @@ body {
 }
 
 @media screen and (max-width: 395px) {
+    .game-container {
+        width: 280px;
+        height: 390px;
+    }
     .logo {
         height: 90px;
         width: 100%;
@@ -262,5 +266,22 @@ body {
     .logo-bar {
         height: 102px;
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .game-container {
+    width: 350px;
+    height: 500px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .game-container {
+        width: 100%;
+    }
+    .game-data-div {
+        width: 100%;
+        height: 750px;
     }
 }
