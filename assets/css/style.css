@@ -20,7 +20,6 @@ body {
     clear: both;
     width: 100%;
     overflow-y: scroll;
-    padding-bottom: 250px;
 }
 
 /* Webiste's Logo And Title */
@@ -96,6 +95,7 @@ body {
 .game-levels {
     list-style-type: none;
     font-family: var(--bodyfont1);
+    padding-left: 0;
 }
 
 .game-content {
@@ -200,7 +200,7 @@ body {
 
 #footer {
     background-color: rgba(0, 0, 0, 0.5);
-    min-height: 10px;
+    min-height: 5px;
     margin: 0;
     bottom: 0;
     position: fixed;
@@ -225,8 +225,6 @@ body {
     color: var(--colour2);
 }
 
-
- 
 .list-inline-item {
     font-size: larger;
     margin-left: 15px;
@@ -270,6 +268,7 @@ body {
         width: calc(25% - 3px);
         height: calc(25% - 3px);
     }
+    
 }
 
 @media screen and (max-width: 480px) {
@@ -292,12 +291,13 @@ body {
 
 @media screen and (min-width: 1000px) {
     .game-container {
-        width: 100%;
+        width: 900px;
     }
     .game-data-div {
-        width: 100%;
+        width: 900px;
+        height: 800px;
     }
-    body {
-        padding-bottom: 300px;
+    .socials i {
+        font-size: 150%;
     }
 }
