@@ -5,7 +5,7 @@
     --colour1: #FFE81F;
     --colour2: #CA4E0B;
     --bodyfont1: 'Gothic+A1', sans-serif;
-    --bodyfont2: 'Lato', sans-serif: 
+    --bodyfont2: 'Lato', sans-serif;
 }
 
 body {
@@ -212,7 +212,7 @@ body {
 }
 
 .game-cards:active {
-    transform-style: scale(.97);
+    transform: scale(.97);
     transition: transform .5s;
 }
 
