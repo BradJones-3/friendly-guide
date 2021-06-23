@@ -198,8 +198,7 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    flex-direction: column;
+
 }
 
 .game-cards {
@@ -275,7 +274,6 @@ body {
     width: 800px;
     height: 625px;
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     }
@@ -284,7 +282,6 @@ body {
         height: 625px;
         margin: auto;
         display: flex;
-        flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
     }
