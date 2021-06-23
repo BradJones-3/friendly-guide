@@ -22,12 +22,47 @@ body {
     overflow-y: scroll;
 }
 
+/* Footer/Social Links & Icons */ 
+
+#footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    min-height: 10px;
+    margin: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.socials {
+    text-align: center;
+    min-height: 75%;
+    min-width: 100%;
+    padding: 6px;
+    margin-right: 20px;
+}
+
+.socials i {
+    color: var(--colour1);
+    text-align: center;
+    font-size: 250%;
+}
+
+.socials i:hover {
+    color: var(--colour2);
+}
+
+.list-inline-item {
+    font-size: larger;
+    margin-left: 15px;
+    text-align: center;
+}
+
+
 /* Webiste's Logo And Title */
 
-.logo-bar,img {
+.logo-bar img {
     border-radius: 25%;
     height: 150px;
-    width: 400px;
     object-fit: fill;
 }
 
@@ -36,6 +71,11 @@ body {
 .modal-title {
     font-family: var(--bodyfont1);
     text-transform: capitalize;
+}
+
+.modal-image {
+    width: 400px;
+    margin-bottom: 3px;
 }
 
 .center { /* Thanks to W3Schools (https://www.w3schools.com/howto/howto_css_center_button.asp */
@@ -138,8 +178,6 @@ body {
     flex-direction: column;
 }
 
-
-
 .game-data-div {
     max-width: 850px;
 }
@@ -160,12 +198,13 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    perspective: 1000px;
+    align-content: center;
+    flex-direction: column;
 }
 
 .game-cards {
     width: calc(25% - 10px);
-    height: calc(33.333% - 10px);
+    height: calc(25% - 10px);
     margin: 5px;
     position: relative;
     transform: scale(1);
@@ -176,6 +215,14 @@ body {
 .game-cards:active {
     transform-style: scale(.97);
     transition: transform .5s;
+}
+
+.game-cards.knight-card {
+    width: calc(20% - 10px);
+}
+
+.game-cards.master-card {
+    width: calc(16.666% - 10px);
 }
 
 .game-cards.flip {
@@ -196,58 +243,106 @@ body {
     transform: rotateY(180deg);
 }
 
-/* Footer/Social Links & Icons */ 
-
-#footer {
-    background-color: rgba(0, 0, 0, 0.5);
-    min-height: 5px;
-    margin: 0;
-    bottom: 0;
-    position: fixed;
-    width: 100%;
-}
-
-.socials {
-    text-align: center;
-    min-height: 75%;
-    min-width: 100%;
-    padding: 6px;
-    margin-right: 20px;
-}
-
-.socials i {
-    color: var(--colour1);
-    text-align: center;
-    font-size: 250%;
-}
-
-.socials i:hover {
-    color: var(--colour2);
-}
-
-.list-inline-item {
-    font-size: larger;
-    margin-left: 15px;
-    text-align: center;
-}
-
 /* Responsive Design */
-
-@media only screen and (max-height: 900px) {
+@media screen and (max-height: 900px) {
     .game-container {
         height: 650px;
         width: 476px;
     }
-    .game-data-div {
-        height: 650px;
-        width: 420px;
+    .game-container.knight-container {
+        width: 600px;
+    }
+    .game-container.master-container {
+        width: 720px;
     }
 }
 
-@media only screen and (max-height: 750px) {
+@media screen and (max-height: 750px) {
     .game-container {
         height: 520px;
-        width: 380px;
+        width: 476px;
+    }
+    .game-container.knight-container {
+        width: 600px;
+    }
+    .game-container.master-container {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+.game-container.master-container {
+    width: 800px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    }
+    .game-container.knight-container {
+        width: 800px;
+        height: 625px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .game-cards.knight-card {
+        width: calc(25% - 10px);
+        height: calc(25% - 10px);
+    }
+    .game-container.knight-container {
+        width: 550px;
+        height: 940px;
+    }
+    .game-cards.master-card {
+        width: calc(25% - 10px);
+        height: calc(16.666% - 10px);
+    }
+    .game-container.master-container {
+        width: 550px;
+        height: 1090px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .game-container {
+        width: 450px;
+        height: 620px;
+    }
+    .game-container.knight-container {
+        width: 450px;
+        height: 1000px;
+    }
+    .game-cards.knight-card {
+        width: calc (25% - 10px);
+        height: calc (25% - 10px);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .game-container.knight-container {
+        width: 500px;
+        height: 620px;
+    }
+    .game-container.master-container {
+        width: 500px;
+        height: 695px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .game-container {
+        width: 350px;
+        height: 500px;
+    }
+    .game-container.knight-container {
+        width: 350px;
+        height: 570px;
     }
 }
 
@@ -255,49 +350,65 @@ body {
     .game-container {
         width: 280px;
         height: 390px;
+        margin-top: 1px;
     }
-    .logo {
-        height: 90px;
-        width: 100%;
+    .game-container.knight-container {
+        width: 280px;
+        height: 460px;
+        margin-top: 1px;
     }
-    .logo-bar {
-        height: 102px;
-        width: 100%;
+    .game-container.master-container {
+        width: 280px;
+        height: 555px;
+        margin-top: 1px;
     }
     .game-cards {
         width: calc(25% - 3px);
-        height: calc(25% - 3px);
+        height: calac(25% - 3px);
+        margin: 2px;
     }
-    
-}
-
-@media screen and (max-width: 480px) {
-    .game-container {
-    width: 350px;
-    height: 500px;
+    .game-cards.knight-card {
+        width: calc(25% - 4px);
+        height: calac(25% - 3px);
+        margin: 2px;
     }
-}
-
-
-@media only screen and (max-width:768px) {
-    .game-container {
+    .game-cards.master-card {
+        width: calc(25% - 4px);
+        height: calac(16.666% - 4px);
+        margin: 2px;
+    }
+    .game-data {
+        max-width: 125px;
+    }
+    .logo-bar {
         width: 100%;
     }
-    .game-data-div {
-        width: 100%;
-        height: 750px;
+    .game-text-title {
+        font-size: 25px;
+    }
+    .socials {
+        font-size: small;
+    }
+    .modal-image {
+        width: 250px;
     }
 }
 
-@media screen and (min-width: 1000px) {
+
+@media screen and (max-width: 280px) {
     .game-container {
-        width: 900px;
+        width: 250px;
+        height: 350px;
+        margin-top: 1px;
     }
-    .game-data-div {
-        width: 900px;
-        height: 800px;
+    .game-container.knight-container {
+        width: 250px;
+        height: 410px;
+        margin-top: 1px;
     }
-    .socials i {
-        font-size: 150%;
+    .game-container.master-container {
+        width: 250px;
+        height: 500px;
+        margin-top: 1px;
     }
 }
