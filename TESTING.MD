@@ -85,17 +85,17 @@ The developer used the website [W3C Markup Validation Service](https://validator
 
 Here are the results from the tests:
 
-* Homepage: ![Homepage HTML Review](assets/testing-files/automated-testing/CSS-test-MS2.png)
+* Homepage: ![Homepage HTML Review](assets/testing-files/automated-testing/Index-Validator-Auto.png)
 
-* Padawan Level Page: ![Padawan Level HTML Review](assets/testing-files/automated-testing/Osrs-Review.jpg)
+* Padawan Level Page: ![Padawan Level HTML Review](assets/testing-files/automated-testing/Padawan-Validator-Auto.png)
 
-* Knight Level Page: ![Knight Level HTML Review](assets/testing-files/automated-testing/Useful-Links-Review.jpg)
+* Knight Level Page: ![Knight Level HTML Review]()
 
 * Master Level Page: ![Master Level HTML Review]()
 
 The developer used the website [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate their CSS.
 
-* Here are the results from the test:![Style Sheet CSS Validation Results](assets/testing-files/automated-testing/CSS-Review.jpg)
+* Here are the results from the test:![Style Sheet CSS Validation Results](assets/testing-files/automated-testing/CSS-Test-MS2.png)
 
 
 ### Browser Validation
