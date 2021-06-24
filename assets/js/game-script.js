@@ -85,10 +85,12 @@ function flipCard() {
 
 function doCardsMatch() {
 	/* check if the cards make a pair*/
-	let doMatch = firstCard.dataset.card ===
-		secondCard.dataset.card;
-    
-    doMatch ? cardsMatch() : cardsDontMatch();
+	if (firstCard.dataset.card ===
+		secondCard.dataset.card) { /* If cards do match they will stay flipped */
+            cardsMatch()
+        } else { /* If cards dont match they will be flipped back over */
+            cardsDontMatch()
+        }
 }
 
 function cardsMatch() {
