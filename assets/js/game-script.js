@@ -87,9 +87,9 @@ function doCardsMatch() {
 	/* check if the cards make a pair*/
 	if (firstCard.dataset.card ===
 		secondCard.dataset.card) { /* If cards do match they will stay flipped */
-            cardsMatch()
+            cardsMatch();
         } else { /* If cards dont match they will be flipped back over */
-            cardsDontMatch()
+            cardsDontMatch();
         }
 }
 
