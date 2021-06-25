@@ -148,6 +148,23 @@ Each image used has alternative text incase the element fails to load.
 
 * **Footer Social Icons** - The footer will be located at the bottom of each page and will allow the webiste users to be able to easily navigate to each of the social handles that they wish to
 
+### Future Features 
+
+* **LeaderBoard**
+  * **Feature** - Set up a modal dedicated to scoring the players attempts on every level and implement a score based on how many moves and the time left on the clock when the game is completed.
+  * **Reasons For Not Implementing** - Developer ran out of time due to work commitments.
+
+* **Game Sounds**
+  * **Feature** - Set up game sounds based on player actions and results of the game.
+  * **Reasons For Not Implementing** - Didn't want to overwelm the players with game sounds on every move.
+
+## Issues And Bugs
+ The developer came across multiple bugs when implementing some features on the website, the ones that was more noticeable, along with the solutions are listed below:
+
+**Footer Overlapping Content** - When looking at game on smaller devices the footer would overlap the game cards. Developer used Google to try and find an answer on how to fix this issue and found the solution on [Stack Overflow](https://stackoverflow.com/questions/16244821/how-to-stop-sticky-footer-from-covering-content).
+
+**Modal stacking on top of one another** - When players clicked the homepage button to open the first modal when they tried to start a new game both modals would stack on top of one another, the developer found that the way they had tried to implement the modal was wrong and deleted the modals and started a fresh making. [Modal Solution](https://codepen.io/elmahdim/details/azVNbN/) developer used this website as a reference as to where they was going wrong.
+
 ## Technologies Used
 
 ### Main Languages Used
@@ -163,7 +180,7 @@ Each image used has alternative text incase the element fails to load.
   * Git was used to utilise the GitPod terminal to allow the developer to commit and push to GitHub.
  *[GitHub](https://github.com/ "Link to GitHub Homepage")
   * GitHub was used to store the project after pushing.
- * [Balsamiq](https://balsamiq.com/ "Link to Balsamiq Homepage)
+ * [Balsamiq](https://balsamiq.com/ "Link to Balsamiq Homepage")
   * Balsamiq was used to create the wireframes during the designing stages of the project.
  * [Am I Responsive](http://ami.responsivedesign.is/# "Link to Am I Responsive")
   * Am I Responsive was used to see the responsive design throughout the process.
