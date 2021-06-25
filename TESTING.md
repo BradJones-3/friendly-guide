@@ -98,7 +98,8 @@ The developer used the website [W3C CSS Validation Service](https://jigsaw.w3.or
 * Here are the results from the test:![Style Sheet CSS Validation Results](assets/testing-files/automated-testing/CSS-Test-MS2.png)
 
 * The developer used the website [JavaScript Validation Service](https://jshint.com/) to validate their JavaScript.
-* Here are the results from the tests: ![JavaScript Game Script]()
+* Here are the results from the tests: ![JavaScript Game Script](assets/testing-files/automated-testing/Game-Script-Test.png).
+* Here are the results from the tests: ![Script.js file](assets/testing-files/automated-testing/Script.js-Test.png).
 
 ### Browser Validation
 
