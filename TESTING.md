@@ -5,7 +5,7 @@
 2. [Manual Testing](#Manual-Testing)
 3. [Automated Testing](#Automated-Testing)
    * [Code Validation](#Code-Validation)
-   * [Browser Validation](#broswer-validation)
+   * [Browser Validation](#Broswer-Validation)
    * [Lighthouse Audit](#Lighthouse-Audit)
 4. [User Testing](#User-Testing)
 
