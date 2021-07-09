@@ -66,12 +66,10 @@ The developer manually tested the following effects to ensure they are displayed
 
 ### Manual testing was conducted by the developer on the following elements of the [Jedi Master Level Page](game-master.html)
 
-* Responsiveness of the Jedi Master Level:
-![Jedi Master HTML Responsiveness]()
-
 ### Responsiveness of the [Jedi Master Page](game-master.html)
 
-![]()
+* Responsiveness of the Jedi Master Level:
+![Jedi Master HTML Responsiveness]()
 
 ## Automated Testing
 
@@ -108,6 +106,12 @@ The developer used the website [W3C CSS Validation Service](https://jigsaw.w3.or
 
 ### Lighthouse Audit
 
-Click [Here]() for the report on the Lighthouse Audit.
+Click [Here](assets/testing-files/automated-testing/HomePage-Lighthouse.pdf) for the Lighthouse Audit for the Home Page.
+
+Click [Here](assets/testing-files/automated-testing/Padawan-Lighthouse.pdf) for the Lighthouse Audit for the Padawan Page.
+
+Click [Here](assets/testing-files/automated-testing/Knight-Lighthouse.pdf) for the Lighthouse Audit for the Jedi Knight Page.
+
+Click [Here](assets/testing-files/automated-testing/Master-Lighthouse.pdf) for the Lighthouse Audit for the Jedi Master Page.
 
 ### User Testing
