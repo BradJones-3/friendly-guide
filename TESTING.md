@@ -19,7 +19,7 @@
   * I want to be able to, challenge myself with various stages of the game.
     * The game comes in 3 levels all described in the rules section of the homepage modal telling the players what each level will consist of, all levels have different time restrictions too.
   * I want to be able to, play the game with or without audio.
-   * Developer ran out of time when coming to implement this feature on the website, which is disappointing as they woudl of included more iconic quotes from the franchise of Star Wars.
+   * Developer ran out of time when coming to implement this feature on the website, which is disappointing as they would of included more iconic quotes and sound effects from the Star Wars franchise.
 
 ## Manual Testing
 
