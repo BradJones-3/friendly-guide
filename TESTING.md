@@ -26,19 +26,16 @@
 ### Common Elements Testing.
 The developer manually tested the following effects to ensure they are displayed and functioning properly.
 
-* Hovering on the navigation bar will trigger the **'hover'** effect and also to confirm the link the users are on.
-![icon hover effect]()
-
 * Hovering over Social Media links will trigger the **'hover'** effect and once clicked will open a new tab.
 
   * YouTube:
-  ![YouTube]()
+  ![YouTube](assets/testing-files/manual-testing/youtube-hover.mp4)
   * Reddit:
-  ![Reddit]()
+  ![Reddit](assets/testing-files/manual-testing/reddit-hover.mp4)
   * LinkedIn:
-  ![LinkedIn]()
+  ![LinkedIn](assets/testing-files/manual-testing/linkedin-hover.mp4)
   * GitHub:
-  ![GitHub]()
+  ![GitHub](assets/testing-files/manual-testing/github-hover.mp4)
 
 ## Homepage
 
