@@ -197,6 +197,8 @@ body {
     height: 640px;
     margin: auto;
     display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     flex-wrap: wrap;
 
 }
