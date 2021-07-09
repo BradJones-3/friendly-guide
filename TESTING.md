@@ -44,7 +44,7 @@ The developer manually tested the following effects to ensure they are displayed
 
 
 * The responsiveness of the Homepage:
-![Homepage Responsiveness]()
+![Homepage Responsiveness](assets/testing-files/manual-testing/homepage-responsive.mp4)
 
 ## Padawan Level Page
 
