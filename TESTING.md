@@ -98,11 +98,10 @@ The developer used the website [W3C CSS Validation Service](https://jigsaw.w3.or
 
 ### Browser Validation
 
-* Chrome - [Chrome Image]()
-* Safari - [Safari Image]()
-* Firefox - [Firefox Image]()
-* Opera - [Opera Image]()
-* Edge - [Edge Image]()
+* Chrome - [Chrome Image](assets/testing-files/automated-testing/Chrome-ms2-compatibility.png)
+* Safari - [Safari Image](assets/testing-files/automated-testing/Safari-ms2-compatibility.png)
+* Firefox - [Firefox Image](assets/testing-files/automated-testing/Firefox-ms2-compatibility.png)
+* Edge - [Edge Image](assets/testing-files/automated-testing/Edge-ms2-compatibility.png)
 
 ### Lighthouse Audit
 
