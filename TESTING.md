@@ -71,12 +71,63 @@ When the user selects the "Jedi Master" button they will be taken to the Jedi Ma
 
 ### Manual testing was performed on the following elements of the [Padawan Level Page](game-padawan.html)
 
+When first arriving at the Padawan Level page there will be a message that once clicked anywhere on the screen will disappear.
+![Welcome Message](assets/testing-files/manual-testing/padawan/padawan-message.mp4)
+
+When clicking on the logo located in the top center of the page.
+![Game Logo](assets/testing-files/manual-testing/padawan/padawan-logo.mp4)
+
+The timer will only start to count down when the first move has been made and the move counter has begun keeping count.
+![Countdown Timer](assets/testing-files/manual-testing/padawan/padawan-timer.mp4)
+
+When the player has made a pair the cards will stay turned over.
+![A Successful Matching Pair](assets/testing-files/manual-testing/padawan/macthing-pair.mp4)
+
+When the player doesn't find two matching cards the cards will then flip back over.
+![Not A Matching Pair](assets/testing-files/manual-testing/padawan/no-match.mp4)
+
+When the player has found all the matching pairs of cards they will be greeted with a winning modal and will display the time left and the amount of moves it took to win the game.
+![Winning Modal](assets/testing-files/manual-testing/padawan/winning-modal.mp4)
+
+When in the winning modal the player can choose to "Play Again" and when the button is clicked they will be taken to the welcome message.
+![Play Again In Winning Modal](assets/testing-files/manual-testing/padawan/win-play-again.mp4)
+
+When clicking on the "Become a Jedi Knight" button the user will be taken to the "Jedi Knight" level welcome message.
+![Jedi Knight Button](assets/testing-files/manual-testing/padawan/win-jedi-knight.mp4)
+
+When clicking on the home button inside the winning modal the user will be taken back to the homepage of the website.
+![Winning Modal Homepage Button](assets/testing-files/manual-testing/padawan/winning-home.mp4)
+
+When the timer hits 0 the game is over and the player will be met with the game over modal.
+![Game Over Modal](assets/testing-files/manual-testing/padawan/padawan-game-over.mp4)
+
+When the player is met with the game over modal they can choose to play again and will be greeted with the welcome message once more.
+![Play Again button in Game Over Modal](assets/testing-files/manual-testing/padawan/padawan-play-again.mp4)
+
+If the player wants to return to the homepage after the game over modal they can click the Homepage button in the modal.
+![Homepage Button in Game Over modal](assets/testing-files/manual-testing/padawan/padawan-home.mp4)
+
 * Responsiveness of the Padawan Level:
 ![Padawan HTML Responsiveness](assets/testing-files/manual-testing/padawan-responsive.mp4)
 
 ## Jedi Knight Level Page
 
 ### Manual testing was conducted by the developer on the following elements of the [Jedi Knight Level Page](game-knight.html)
+
+When the player arrives at the Jedi Knight page they will be greeted with a welcome message that when clicked anywhere on the page will close.
+![Welcome Message Jedi Knight](assets/testing-files/manual-testing/knight/knight-welcome.mp4)
+
+When clicking on the logo at the top center of the page the user will be taken back to the homepage.
+![Jedi Knight Logo](assets/testing-files/manual-testing/knight/knight-logo.mp4)
+
+The countdown will only start once the move counter has reached begun counting.
+![Countdown Timer and Moves Counter](assets/testing-files/manual-testing/knight/)
+
+When succesfully pairing two cards they will stay flipped face side up.
+![Succesful Pair](assets/testing-files/manual-testing/knight/knight-pair.mp4)
+
+When the user doesn't make a match the cards will flip back over.
+![Not a Matching Pair](assets/testing-files/manual-testing/knight/knight-no-pair.mp4)
 
 ### Responsiveness of the [Jedi Knight Page](game-knight.html)
 
