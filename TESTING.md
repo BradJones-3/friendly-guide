@@ -51,7 +51,7 @@ The developer manually tested the following effects to ensure they are displayed
 ### Manual testing was performed on the following elements of the [Padawan Level Page](game-padawan.html)
 
 * Responsiveness of the Padawan Level:
-![Padawan HTML Responsiveness]()
+![Padawan HTML Responsiveness](assets/testing-files/manual-testing/padawan-responsive.mp4)
 
 ## Jedi Knight Level Page
 
@@ -60,7 +60,7 @@ The developer manually tested the following effects to ensure they are displayed
 ### Responsiveness of the [Jedi Knight Page](game-knight.html)
 
 * Responsiveness of the Jedi Knight Level:
-![Jedi Knight HTML Responsiveness]()
+![Jedi Knight HTML Responsiveness](assets/testing-files/manual-testing/knight-responsive.mp4)
 
 ## Jedi Master Level Page
 
@@ -69,7 +69,7 @@ The developer manually tested the following effects to ensure they are displayed
 ### Responsiveness of the [Jedi Master Page](game-master.html)
 
 * Responsiveness of the Jedi Master Level:
-![Jedi Master HTML Responsiveness]()
+![Jedi Master HTML Responsiveness](assets/testing-files/manual-testing/master-responsiveness.mp4)
 
 ## Automated Testing
 
