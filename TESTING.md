@@ -121,7 +121,7 @@ When clicking on the logo at the top center of the page the user will be taken b
 ![Jedi Knight Logo](assets/testing-files/manual-testing/knight/knight-logo.mp4)
 
 The countdown will only start once the move counter has reached begun counting.
-![Countdown Timer and Moves Counter](assets/testing-files/manual-testing/knight/)
+![Countdown Timer and Moves Counter](assets/testing-files/manual-testing/knight/knight-no-pair.mp4)
 
 When succesfully pairing two cards they will stay flipped face side up.
 ![Succesful Pair](assets/testing-files/manual-testing/knight/knight-pair.mp4)
