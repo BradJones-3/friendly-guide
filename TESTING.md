@@ -41,7 +41,8 @@ The developer manually tested the following effects to ensure they are displayed
 
 ### Manual testing was performed on the following elements of the [Homepage](index.html)
 
-
+When clicking on the button in the middle of the page a modal will open with options for the users.
+![Homepages Modal](assets/testing-files/manual-testing/homerpage/home-modal.mp4)
 
 * The responsiveness of the Homepage:
 ![Homepage Responsiveness](assets/testing-files/manual-testing/homepage-responsive.mp4)
