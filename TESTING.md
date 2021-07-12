@@ -40,9 +40,29 @@ The developer manually tested the following effects to ensure they are displayed
 ## Homepage
 
 ### Manual testing was performed on the following elements of the [Homepage](index.html)
+When clicking on the logo located in the top center of the page.
+![Game Logo](assets/testing-files/manual-testing/homepage/home-logo.mp4)
 
 When clicking on the button in the middle of the page a modal will open with options for the users.
-![Homepages Modal](assets/testing-files/manual-testing/homerpage/home-modal.mp4)
+![Homepages Modal](assets/testing-files/manual-testing/homepage/home-modal.mp4)
+
+When the user clicks anywhere outside the modal, the modal will close and return the the homepage.
+![Click Outside Modal](assets/testing-files/manual-testing/homepage/modal-close.mp4)
+
+When clicking on the "How To Play" button the text will display with a scroll effect with rules on how to play the game.
+![How To Play Button](assets/testing-files/manual-testing/homepage/how-to-button.mp4) 
+
+When the user is inside the home modal when clicking "New Game" the current modal will close and open another with the different levels avaliable to play.
+![New Game Button](assets/testing-files/manual-testing/homepage/new-game.mp4)
+
+When the user selects the "Padawan" button they will be taken to the Padawan level of the game.
+![Padawan Button](assets/testing-files/manual-testing/homepage/padawan-button.mp4)
+
+When the user selects the "Jedi Knight" button they will be taken to the Jedi Knight level of the game.
+![Jedi Knight Button](assets/testing-files/manual-testing/homepage/knight-button.mp4)
+
+When the user selects the "Jedi Master" button they will be taken to the Jedi Master level of the game.
+![Jedi Master Button](assets/testing-files/manual-testing/homepage/master-button.mp4)
 
 * The responsiveness of the Homepage:
 ![Homepage Responsiveness](assets/testing-files/manual-testing/homepage-responsive.mp4)
