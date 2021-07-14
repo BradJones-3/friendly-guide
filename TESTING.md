@@ -138,6 +138,14 @@ When the user doesn't make a match the cards will flip back over.
 
 ### Manual testing was conducted by the developer on the following elements of the [Jedi Master Level Page](game-master.html)
 
+When arriving at the Jedi Master page the user will be greeted with a welcome message that when they click on the page will disappear.
+![Jedi Master Welcome Message]()
+
+When succesfully pairing two cards they will stay flipped face side up.
+![Jedi Master Matching Pair]()
+
+If the cards do not match they will flip back over face down.
+![Jedi Master Not A Pair]()
 ### Responsiveness of the [Jedi Master Page](game-master.html)
 
 * Responsiveness of the Jedi Master Level:
@@ -160,11 +168,11 @@ Here are the results from the tests:
 
 * Master Level Page: ![Master Level HTML Review](assets/testing-files/automated-testing/Master-Validator-Auto.png)
 
-The developer used the website [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate their CSS.
+The developer used the website ![W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate their CSS.
 
 * Here are the results from the test:![Style Sheet CSS Validation Results](assets/testing-files/automated-testing/CSS-Test-MS2.png)
 
-* The developer used the website [JavaScript Validation Service](https://jshint.com/) to validate their JavaScript.
+* The developer used the website ![JavaScript Validation Service](https://jshint.com/) to validate their JavaScript.
 * Here are the results from the tests: ![JavaScript Game Script](assets/testing-files/automated-testing/Game-Script-Test.png).
 * Here are the results from the tests: ![Script.js file](assets/testing-files/automated-testing/Script.js-Test.png).
 
