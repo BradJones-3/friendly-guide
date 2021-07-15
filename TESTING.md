@@ -13,13 +13,13 @@
 
 ### **Players Goals**:
   * I want to be able to, access straightforward instructions on how to play the game.
-    * The rules are easily accessable from the homepage modal and are brief and straightforward to understand in a matter of seconds.
+    * The rules are easily accessible from the homepage modal and are brief and straightforward to understand in a matter of seconds.
   * I want to be able to, return to the homepage with a single click.
     * This is easily achieved by clicking on the logo placed in the top center of every page and will direct the player to the homepage of the website instantly.
   * I want to be able to, challenge myself with various stages of the game.
     * The game comes in 3 levels all described in the rules section of the homepage modal telling the players what each level will consist of, all levels have different time restrictions too.
   * I want to be able to, play the game with or without audio.
-   * Developer ran out of time when coming to implement this feature on the website, which is disappointing as they would of included more iconic quotes and sound effects from the Star Wars franchise.
+   * Developer ran out of time when coming to implement this feature on the website, which is disappointing as they would have included more iconic quotes and sound effects from the Star Wars franchise.
 
 ## Manual Testing
 
@@ -46,13 +46,13 @@ When clicking on the logo located in the top center of the page.
 When clicking on the button in the middle of the page a modal will open with options for the users.
 ![Homepages Modal](assets/testing-files/manual-testing/homepage/home-modal.mp4)
 
-When the user clicks anywhere outside the modal, the modal will close and return the the homepage.
+When the user clicks anywhere outside the modal, the modal will close and return the homepage.
 ![Click Outside Modal](assets/testing-files/manual-testing/homepage/modal-close.mp4)
 
 When clicking on the "How To Play" button the text will display with a scroll effect with rules on how to play the game.
 ![How To Play Button](assets/testing-files/manual-testing/homepage/how-to-button.mp4) 
 
-When the user is inside the home modal when clicking "New Game" the current modal will close and open another with the different levels avaliable to play.
+When the user is inside the home modal when clicking "New Game" the current modal will close and open another with the different levels available to play.
 ![New Game Button](assets/testing-files/manual-testing/homepage/new-game.mp4)
 
 When the user selects the "Padawan" button they will be taken to the Padawan level of the game.
@@ -123,7 +123,7 @@ When clicking on the logo at the top center of the page the user will be taken b
 The countdown will only start once the move counter has reached begun counting.
 ![Countdown Timer and Moves Counter](assets/testing-files/manual-testing/knight/knight-no-pair.mp4)
 
-When succesfully pairing two cards they will stay flipped face side up.
+When successfully pairing two cards they will stay flipped face side up.
 ![Succesful Pair](assets/testing-files/manual-testing/knight/knight-pair.mp4)
 
 When the user doesn't make a match the cards will flip back over.
@@ -141,13 +141,13 @@ The player will also have the option to go back to the homepage which when they 
 If the player manages to find all the matching pairs before the timer runs out they will be greeted with the winning modal on their last matching pair. It will also show how many moves it took them to beat the game and also the time remaining for them to beat it.
 ![Jedi Knight Winning Modal](assets/testing-files/manual-testing/knight/knight-winning.mp4)
 
-Whilst in the winning modal the player has the option to play the level again by clicking the 'Play Agian' button this will take them back to the welcome message of the Jedi Knight level.
+Whilst in the winning modal the player has the option to play the level again by clicking the 'Play Again' button this will take them back to the welcome message of the Jedi Knight level.
 ![Jedi Knight Play Again](assets/testing-files/manual-testing/knight/knight-win-play-again.mp4)
 
-The player will also have the option to test their memory on the Jedi Master level by clicking 'Become A Jedi Master' which will take the player to the Jedi Master welcome messgae.
+The player will also have the option to test their memory on the Jedi Master level by clicking 'Become A Jedi Master' which will take the player to the Jedi Master welcome message.
 ![Jedi Master Button](assets/testing-files/manual-testing/knight/knight=play-master.mp4)
 
-The player can aslo click the Homepage button to return back to the homepage.
+The player can also click the Homepage button to return back to the homepage.
 ![Jedi Knight Homepage Button](assets/testing-files/manual-testing/knight/knight-win-home.mp4)
 
 ### Responsiveness of the [Jedi Knight Page](game-knight.html)
@@ -163,12 +163,12 @@ When arriving at the Jedi Master page the user will be greeted with a welcome me
 ![Jedi Master Welcome Message](assets/testing-files/manual-testing/master/master-welcome.mp4)
 
 When the user clicks on the logo located top center of the page they will be taken back to the homepage of the game.
-![Jedi Master Logo](assets/testing-files/manual-tesing/master/master-logo.mp4)
+![Jedi Master Logo](assets/testing-files/manual-testing/master/master-logo.mp4)
 
 The timer will start when the moves counter is activated by the players first move.
 ![Jedi Master Timer and Move Counter](assets/testing-files/manual-testing/master/mater-timer.mp4)
 
-When succesfully pairing two cards they will stay flipped.
+When successfully pairing two cards they will stay flipped.
 ![Jedi Master Matching Pair](assets/testing-files/manual-testing/master/master-pair.mp4)
 
 If the cards do not match they will flip back over face down.
@@ -183,7 +183,7 @@ In the game over modal the player has the option to click the 'Play Again' butto
 In the game over modal the player will also have the option to return to the homepage by clicking 'Home' which will direct them back to the homepage.
 ![Jedi Master Game Over Home Button](assets/testing-files/manual-testing/master/master-over-home.mp4)
 
-When the player finds all the matching pairs on the last pair the game will be stopped and the winning modal will be shown which will display the moves taken and the time remaning on the clock.
+When the player finds all the matching pairs on the last pair the game will be stopped and the winning modal will be shown which will display the moves taken and the time remaining on the clock.
 ![Jedi Master Winning Modal](assets/testing-files/manual-testing/master/master-win-modal.mp4)
 
 When inside the winning modal the player can choose to 'Play Again' which will return them to the welcome message as seen before playing.
