@@ -160,15 +160,38 @@ The player can aslo click the Homepage button to return back to the homepage.
 ### Manual testing was conducted by the developer on the following elements of the [Jedi Master Level Page](game-master.html)
 
 When arriving at the Jedi Master page the user will be greeted with a welcome message that when they click on the page will disappear.
-![Jedi Master Welcome Message]()
+![Jedi Master Welcome Message](assets/testing-files/manual-testing/master/master-welcome.mp4)
 
-When succesfully pairing two cards they will stay flipped face side up.
-![Jedi Master Matching Pair]()
+When the user clicks on the logo located top center of the page they will be taken back to the homepage of the game.
+![Jedi Master Logo](assets/testing-files/manual-tesing/master/master-logo.mp4)
+
+The timer will start when the moves counter is activated by the players first move.
+![Jedi Master Timer and Move Counter](assets/testing-files/manual-testing/master/mater-timer.mp4)
+
+When succesfully pairing two cards they will stay flipped.
+![Jedi Master Matching Pair](assets/testing-files/manual-testing/master/master-pair.mp4)
 
 If the cards do not match they will flip back over face down.
-![Jedi Master Not A Pair]()
+![Jedi Master Not A Pair](assets/testing-files/manual-testing/master/master-no-match.mp4)
 
-When the timer runs out the game will be stopped and a game over modal will pop up.
+If the player fails to find all the matching pairs before the timer runs out they will be stopped and met with the game over modal.
+![Jedi Master Game Over Modal](assets/testing-files/manual-testing/master/master-game-over.mp4)
+
+In the game over modal the player has the option to click the 'Play Again' button which will take the player to the welcome message once again.
+![Jedi Master Game Over Play Again Button](assets/testing-files/manual-testing/master/master-over-play-again.mp4)
+
+In the game over modal the player will also have the option to return to the homepage by clicking 'Home' which will direct them back to the homepage.
+![Jedi Master Game Over Home Button](assets/testing-files/manual-testing/master/master-over-home.mp4)
+
+When the player finds all the matching pairs on the last pair the game will be stopped and the winning modal will be shown which will display the moves taken and the time remaning on the clock.
+![Jedi Master Winning Modal](assets/testing-files/manual-testing/master/master-win-modal.mp4)
+
+When inside the winning modal the player can choose to 'Play Again' which will return them to the welcome message as seen before playing.
+![Jedi Master Play Again Button Inside Winning Modal](assets/testing-files/manual-testing/master/master-win-again.mp4)
+
+The other option the player has is to return to the homepage by clicking 'Return To Coruscant'.
+![Jedi Master Winning Modal Home Button](assets/testing-files/manual-testing/master/master-win-home.mp4)
+
 ### Responsiveness of the [Jedi Master Page](game-master.html)
 
 * Responsiveness of the Jedi Master Level:
@@ -191,7 +214,7 @@ Here are the results from the tests:
 
 * Master Level Page: ![Master Level HTML Review](assets/testing-files/automated-testing/Master-Validator-Auto.png)
 
-The developer used the website ![W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate their CSS.
+* The developer used the website ![W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) to validate their CSS.
 
 * Here are the results from the test:![Style Sheet CSS Validation Results](assets/testing-files/automated-testing/CSS-Test-MS2.png)
 
@@ -217,3 +240,5 @@ Click [Here](assets/testing-files/automated-testing/Knight-Lighthouse.pdf) for t
 Click [Here](assets/testing-files/automated-testing/Master-Lighthouse.pdf) for the Lighthouse Audit for the Jedi Master Page.
 
 ### User Testing
+
+* During user testing when the testers would click play again inside the Jedi Master Winning Modal it would take the user to the Padawan Level. This was a quick fix which was resolved in a matter of minutes of the information relayed back to the developer.
