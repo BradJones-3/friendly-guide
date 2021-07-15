@@ -129,6 +129,27 @@ When succesfully pairing two cards they will stay flipped face side up.
 When the user doesn't make a match the cards will flip back over.
 ![Not a Matching Pair](assets/testing-files/manual-testing/knight/knight-no-pair.mp4)
 
+When the timer hits 0 the game will be over and the player will be met with the game over modal.
+![Jedi Knight Game Over Modal](assets/testing-files/manual-testing/knight/knight-game-over-modal.mp4)
+
+When in the game over modal the player can choose to play again and they will be greeted with the welcome message to signal a new game will start.
+![Jedi Knight Play Again](assets/testing-files/manual-testing/knight/knight-play-again.mp4)
+
+The player will also have the option to go back to the homepage which when they click the home button they will be sent back to the homepage.
+![Jedi Knight Homepage Button](assets/testing-files/manual-testing/knight/knight-home-button.mp4)
+
+If the player manages to find all the matching pairs before the timer runs out they will be greeted with the winning modal on their last matching pair. It will also show how many moves it took them to beat the game and also the time remaining for them to beat it.
+![Jedi Knight Winning Modal](assets/testing-files/manual-testing/knight/knight-winning.mp4)
+
+Whilst in the winning modal the player has the option to play the level again by clicking the 'Play Agian' button this will take them back to the welcome message of the Jedi Knight level.
+![Jedi Knight Play Again](assets/testing-files/manual-testing/knight/knight-win-play-again.mp4)
+
+The player will also have the option to test their memory on the Jedi Master level by clicking 'Become A Jedi Master' which will take the player to the Jedi Master welcome messgae.
+![Jedi Master Button](assets/testing-files/manual-testing/knight/knight=play-master.mp4)
+
+The player can aslo click the Homepage button to return back to the homepage.
+![Jedi Knight Homepage Button](assets/testing-files/manual-testing/knight/knight-win-home.mp4)
+
 ### Responsiveness of the [Jedi Knight Page](game-knight.html)
 
 * Responsiveness of the Jedi Knight Level:
@@ -146,6 +167,8 @@ When succesfully pairing two cards they will stay flipped face side up.
 
 If the cards do not match they will flip back over face down.
 ![Jedi Master Not A Pair]()
+
+When the timer runs out the game will be stopped and a game over modal will pop up.
 ### Responsiveness of the [Jedi Master Page](game-master.html)
 
 * Responsiveness of the Jedi Master Level:
