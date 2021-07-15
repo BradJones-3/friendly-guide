@@ -29,7 +29,7 @@ The developer manually tested the following effects to ensure they are displayed
 * Hovering over Social Media links will trigger the **'hover'** effect and once clicked will open a new tab.
 
   * YouTube:
-  ![YouTube](assets/testing-files/manual-testing/youtube-hover.mp4)
+  [YouTube](assets/testing-files/manual-testing/youtube-hover.mp4)
   * Reddit:
   ![Reddit](assets/testing-files/manual-testing/reddit-hover.mp4)
   * LinkedIn:
