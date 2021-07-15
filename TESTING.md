@@ -242,3 +242,4 @@ Click [Here](assets/testing-files/automated-testing/Master-Lighthouse.pdf) for t
 ### User Testing
 
 * During user testing when the testers would click play again inside the Jedi Master Winning Modal it would take the user to the Padawan Level. This was a quick fix which was resolved in a matter of minutes of the information relayed back to the developer.
+* Developer changed thier mind on moving all social links to another location as to keep the consistency throughout the whole website. 
