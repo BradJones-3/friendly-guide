@@ -172,17 +172,17 @@ Each image used has alternative text incase the element fails to load.
  * [CSS3](https://en.wikipedia.org/wiki/CSS#CSS_3 "Link to CSS Wiki")
 
 ### Libraries, Frameworks and Libraries Used
- * [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/ "Link to the Homepage of Bootstrap")
+* [Bootstrap 4](https://getbootstrap.com/docs/4.5/getting-started/introduction/ "Link to the Homepage of Bootstrap")
    * Bootstrap was used to allow the website to be responsive from mobile devices upwards.
- * [Google Fonts](https://fonts.google.com/ "Link to Google Fonts Homepage")
+* [Google Fonts](https://fonts.google.com/ "Link to Google Fonts Homepage")
    * Google Fonts was used to import the fonts used throughout the website which are "Roboto" and "Lato" this was implemented in the style.css file.
 * [Git](https://git-scm.com/ "Link to Git Homepage")
   * Git was used to utilise the GitPod terminal to allow the developer to commit and push to GitHub.
- *[GitHub](https://github.com/ "Link to GitHub Homepage")
+*[GitHub](https://github.com/ "Link to GitHub Homepage")
   * GitHub was used to store the project after pushing.
- * [Balsamiq](https://balsamiq.com/ "Link to Balsamiq Homepage")
+* [Balsamiq](https://balsamiq.com/ "Link to Balsamiq Homepage")
   * Balsamiq was used to create the wireframes during the designing stages of the project.
- * [Am I Responsive](http://ami.responsivedesign.is/# "Link to Am I Responsive")
+* [Am I Responsive](http://ami.responsivedesign.is/# "Link to Am I Responsive")
   * Am I Responsive was used to see the responsive design throughout the process.
 
 
