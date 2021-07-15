@@ -205,7 +205,9 @@ In order for this page to be deployed to GitHub Pages from its GitHub Repository
 ### Content
 
 * Code
+
 The developer has used multiple sites that would better help them understand the code used and was modified to fit the websites theme and to keep the order consistent. The sites that were used are as following:
+
 * [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow Homepage")
 * [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/ "Link to Bootstrap Homepage")
 * [Google Fonts](https://fonts.google.com/ "Link to Google Fonts Homepage")
